@@ -1,0 +1,7 @@
+May 12 06:52:03 ubuntu sshd[1625]: Failed password for root from 192.168.1.5 port 44552 ssh2
+May 12 06:52:07 ubuntu sshd[1625]: Failed password for root from 192.168.1.5 port 44552 ssh2
+May 12 06:52:12 ubuntu sshd[1626]: Failed password for invalid user admin from 192.168.1.10 port 54821 ssh2
+May 12 06:52:15 ubuntu sshd[1626]: Failed password for invalid user admin from 192.168.1.10 port 54821 ssh2
+May 12 06:52:19 ubuntu sshd[1627]: Accepted password for user1 from 192.168.1.15 port 60123 ssh2
+May 12 06:52:21 ubuntu sshd[1627]: Failed password for user1 from 192.168.1.20 port 60932 ssh2
+May 12 06:52:24 ubuntu sshd[1628]: Failed password for root from 192.168.1.6 port 40211 ssh2

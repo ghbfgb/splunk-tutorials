@@ -1,0 +1,4 @@
+index=main sourcetype="csv"
+(action="modify" OR action="delete") AND status="failed"
+| stats count by user, file_path, action, _time
+| where count > 0
