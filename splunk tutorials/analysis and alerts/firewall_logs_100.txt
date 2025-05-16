@@ -1,0 +1,100 @@
+May 16 09:25:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.25 dst=192.168.1.35 spt=29776 dpt=80 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:25:15 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.8 dst=192.168.1.10 spt=8528 dpt=3389 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:25:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=8.8.8.8 dst=10.0.0.15 spt=45849 dpt=3389 proto=TCP msg=Deny TCP (no connection)
+May 16 09:25:45 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=198.51.100.3 dst=192.168.1.13 spt=8179 dpt=80 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:26:00 firewall02 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=192.168.1.14 dst=192.168.1.27 spt=54336 dpt=80 proto=TCP msg=Connection closed after data transfer
+May 16 09:26:15 firewall02 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=10.0.0.8 dst=10.0.0.5 spt=27525 dpt=161 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:26:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.14 dst=192.168.1.46 spt=23900 dpt=443 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:26:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.37 dst=203.0.113.4 spt=8427 dpt=80 proto=TCP msg=Deny TCP (no connection)
+May 16 09:27:00 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=192.168.1.48 dst=10.0.0.16 spt=60568 dpt=53 proto=UDP msg=DNS request
+May 16 09:27:15 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=203.0.113.8 dst=198.51.100.8 spt=6073 dpt=80 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:27:30 firewall02 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=10.0.0.9 dst=192.168.1.31 spt=57947 dpt=3389 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:27:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.14 dst=192.168.1.21 spt=45101 dpt=80 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:28:00 firewall02 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=198.51.100.1 dst=203.0.113.3 spt=35287 dpt=161 proto=UDP msg=DNS request
+May 16 09:28:15 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.36 dst=8.8.8.8 spt=47148 dpt=53 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:28:30 firewall01 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=10.0.0.16 dst=10.0.0.4 spt=40962 dpt=53 proto=TCP msg=Connection closed after data transfer
+May 16 09:28:45 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=10.0.0.12 dst=10.0.0.12 spt=11055 dpt=161 proto=UDP msg=DNS request
+May 16 09:29:00 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.42 dst=192.168.1.15 spt=17698 dpt=53 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:29:15 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.11 dst=10.0.0.6 spt=6565 dpt=53 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:29:30 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.27 dst=192.168.1.15 spt=15781 dpt=3389 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:29:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.14 dst=10.0.0.11 spt=48920 dpt=53 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:30:00 firewall02 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=10.0.0.18 dst=192.168.1.26 spt=60812 dpt=161 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:30:15 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=192.168.1.14 dst=10.0.0.13 spt=62069 dpt=443 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:30:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.19 dst=192.168.1.23 spt=33410 dpt=443 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:30:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=203.0.113.7 dst=192.168.1.36 spt=26086 dpt=53 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:31:00 firewall01 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=203.0.113.1 dst=192.168.1.38 spt=62399 dpt=80 proto=TCP msg=Connection closed after data transfer
+May 16 09:31:15 firewall02 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=192.168.1.27 dst=192.168.1.22 spt=10234 dpt=161 proto=UDP msg=DNS request
+May 16 09:31:30 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.13 dst=192.168.1.39 spt=58251 dpt=80 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:31:45 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=198.51.100.5 dst=192.168.1.21 spt=7108 dpt=3389 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:32:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=10.0.0.13 dst=10.0.0.12 spt=9661 dpt=3389 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:32:15 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.49 dst=203.0.113.4 spt=44478 dpt=161 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:32:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.35 dst=198.51.100.7 spt=5882 dpt=80 proto=TCP msg=Deny TCP (no connection)
+May 16 09:32:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.14 dst=192.168.1.25 spt=9959 dpt=3389 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:33:00 firewall01 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=203.0.113.5 dst=192.168.1.16 spt=45126 dpt=443 proto=TCP msg=Connection closed after data transfer
+May 16 09:33:15 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.18 dst=192.168.1.18 spt=15571 dpt=443 proto=TCP msg=Deny TCP (no connection)
+May 16 09:33:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.38 dst=172.217.3.110 spt=60672 dpt=80 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:33:45 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.18 dst=198.51.100.6 spt=40056 dpt=3389 proto=TCP msg=Deny TCP (no connection)
+May 16 09:34:00 firewall02 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=10.0.0.4 dst=198.51.100.4 spt=53623 dpt=161 proto=UDP msg=DNS request
+May 16 09:34:15 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.48 dst=192.168.1.47 spt=3048 dpt=3389 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:34:30 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=203.0.113.9 dst=10.0.0.4 spt=45874 dpt=443 proto=UDP msg=DNS request
+May 16 09:34:45 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=172.217.3.110 dst=10.0.0.1 spt=8804 dpt=3389 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:35:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=198.51.100.2 dst=8.8.8.8 spt=62232 dpt=3389 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:35:15 firewall01 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=192.168.1.20 dst=10.0.0.19 spt=54224 dpt=53 proto=TCP msg=Connection closed after data transfer
+May 16 09:35:30 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=203.0.113.1 dst=198.51.100.9 spt=56680 dpt=443 proto=UDP msg=DNS request
+May 16 09:35:45 firewall02 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=10.0.0.4 dst=192.168.1.48 spt=41733 dpt=3389 proto=TCP msg=Connection closed after data transfer
+May 16 09:36:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.19 dst=10.0.0.14 spt=29761 dpt=161 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:36:15 firewall02 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=10.0.0.4 dst=192.168.1.18 spt=17377 dpt=443 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:36:30 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.18 dst=192.168.1.32 spt=24890 dpt=443 proto=TCP msg=Deny TCP (no connection)
+May 16 09:36:45 firewall02 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=192.168.1.42 dst=192.168.1.12 spt=33516 dpt=443 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:37:00 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=10.0.0.18 dst=192.168.1.38 spt=37364 dpt=443 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:37:15 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=192.168.1.37 dst=198.51.100.5 spt=49864 dpt=3389 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:37:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.41 dst=192.168.1.11 spt=3790 dpt=80 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:37:45 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=192.168.1.21 dst=192.168.1.17 spt=54623 dpt=161 proto=UDP msg=DNS request
+May 16 09:38:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.32 dst=198.51.100.3 spt=56303 dpt=53 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:38:15 firewall02 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=192.168.1.25 dst=192.168.1.46 spt=58858 dpt=161 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:38:30 firewall01 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=10.0.0.13 dst=203.0.113.7 spt=55742 dpt=161 proto=TCP msg=Connection closed after data transfer
+May 16 09:38:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=203.0.113.6 dst=10.0.0.8 spt=6975 dpt=53 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:39:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.37 dst=203.0.113.3 spt=58884 dpt=80 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:39:15 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.26 dst=192.168.1.24 spt=53563 dpt=80 proto=TCP msg=Deny TCP (no connection)
+May 16 09:39:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=10.0.0.7 dst=8.8.8.8 spt=6354 dpt=443 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:39:45 firewall02 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=192.168.1.13 dst=10.0.0.1 spt=8168 dpt=80 proto=UDP msg=DNS request
+May 16 09:40:00 firewall01 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=192.168.1.34 dst=203.0.113.3 spt=52523 dpt=80 proto=TCP msg=Connection closed after data transfer
+May 16 09:40:15 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.16 dst=192.168.1.10 spt=29935 dpt=161 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:40:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.43 dst=192.168.1.18 spt=61105 dpt=161 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:40:45 firewall02 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=192.168.1.37 dst=192.168.1.14 spt=22199 dpt=443 proto=TCP msg=Connection closed after data transfer
+May 16 09:41:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.31 dst=10.0.0.9 spt=28471 dpt=53 proto=TCP msg=Deny TCP (no connection)
+May 16 09:41:15 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.39 dst=10.0.0.4 spt=9422 dpt=443 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:41:30 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.8 dst=192.168.1.32 spt=59752 dpt=80 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:41:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=198.51.100.6 dst=192.168.1.18 spt=60613 dpt=3389 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:42:00 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=192.168.1.26 dst=198.51.100.2 spt=42186 dpt=53 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:42:15 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=192.168.1.44 dst=192.168.1.21 spt=18293 dpt=3389 proto=UDP msg=DNS request
+May 16 09:42:30 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.18 dst=192.168.1.28 spt=32312 dpt=53 proto=TCP msg=Deny TCP (no connection)
+May 16 09:42:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=198.51.100.2 dst=192.168.1.20 spt=62357 dpt=161 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:43:00 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=203.0.113.4 dst=10.0.0.14 spt=39544 dpt=161 proto=UDP msg=DNS request
+May 16 09:43:15 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=192.168.1.31 dst=198.51.100.8 spt=27575 dpt=53 proto=UDP msg=DNS request
+May 16 09:43:30 firewall02 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=198.51.100.5 dst=10.0.0.15 spt=57241 dpt=53 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:43:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=203.0.113.5 dst=10.0.0.8 spt=44225 dpt=161 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:44:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.17 dst=10.0.0.4 spt=18414 dpt=443 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:44:15 firewall02 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=203.0.113.2 dst=192.168.1.14 spt=25433 dpt=53 proto=UDP msg=DNS request
+May 16 09:44:30 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=203.0.113.1 dst=203.0.113.3 spt=7465 dpt=80 proto=TCP msg=Deny TCP (no connection)
+May 16 09:44:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.12 dst=198.51.100.9 spt=39000 dpt=53 proto=TCP msg=Deny TCP (no connection)
+May 16 09:45:00 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=192.168.1.30 dst=203.0.113.9 spt=37333 dpt=443 proto=UDP msg=DNS request
+May 16 09:45:15 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=10.0.0.3 dst=192.168.1.35 spt=41029 dpt=3389 proto=UDP msg=DNS request
+May 16 09:45:30 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.40 dst=198.51.100.1 spt=3804 dpt=80 proto=TCP msg=Deny TCP (no connection)
+May 16 09:45:45 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=198.51.100.9 dst=10.0.0.13 spt=59909 dpt=53 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:46:00 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=10.0.0.10 dst=198.51.100.1 spt=55561 dpt=3389 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:46:15 firewall02 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.18 dst=10.0.0.15 spt=28436 dpt=3389 proto=TCP msg=Deny TCP (no connection)
+May 16 09:46:30 firewall02 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=203.0.113.8 dst=198.51.100.8 spt=48930 dpt=161 proto=UDP msg=DNS request
+May 16 09:46:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=10.0.0.9 dst=203.0.113.2 spt=28681 dpt=80 proto=TCP msg=Deny TCP (no connection)
+May 16 09:47:00 firewall02 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=203.0.113.9 dst=192.168.1.27 spt=18244 dpt=80 proto=TCP msg=Connection closed after data transfer
+May 16 09:47:15 firewall02 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=10.0.0.9 dst=192.168.1.18 spt=62365 dpt=443 proto=TCP msg=Connection closed after data transfer
+May 16 09:47:30 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=198.51.100.9 dst=192.168.1.47 spt=62126 dpt=3389 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:47:45 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny UDP|5|src=192.168.1.29 dst=198.51.100.9 spt=46019 dpt=161 proto=UDP msg=Unauthorized SNMP attempt
+May 16 09:48:00 firewall01 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=192.168.1.18 dst=10.0.0.14 spt=13422 dpt=3389 proto=TCP msg=Connection closed after data transfer
+May 16 09:48:15 firewall01 CEF:0|Cisco|ASA|9.12|302013|Built outbound TCP connection|5|src=192.168.1.13 dst=198.51.100.1 spt=59433 dpt=80 proto=TCP msg=Built outbound TCP connection for internet access
+May 16 09:48:30 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=203.0.113.4 dst=10.0.0.17 spt=62280 dpt=161 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:48:45 firewall01 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=192.168.1.26 dst=192.168.1.48 spt=38703 dpt=3389 proto=TCP msg=Connection closed after data transfer
+May 16 09:49:00 firewall01 CEF:0|Cisco|ASA|9.12|106023|Deny TCP|5|src=192.168.1.38 dst=10.0.0.13 spt=43766 dpt=3389 proto=TCP msg=Blocked suspicious RDP attempt from external source
+May 16 09:49:15 firewall01 CEF:0|Cisco|ASA|9.12|106100|Accessed URL|5|src=192.168.1.47 dst=192.168.1.38 spt=62549 dpt=80 proto=UDP msg=DNS request
+May 16 09:49:30 firewall02 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=10.0.0.16 dst=192.168.1.25 spt=21746 dpt=161 proto=TCP msg=Connection closed after data transfer
+May 16 09:49:45 firewall02 CEF:0|Cisco|ASA|9.12|302014|Teardown TCP connection|5|src=192.168.1.31 dst=192.168.1.20 spt=26463 dpt=443 proto=TCP msg=Connection closed after data transfer
