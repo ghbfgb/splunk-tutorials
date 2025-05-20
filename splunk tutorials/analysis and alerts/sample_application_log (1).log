@@ -1,0 +1,100 @@
+2025-05-20 10:00:00,000 [INFO] [QueryMonitor] - Failed to connect to replica database: authentication failed
+2025-05-20 10:00:04,000 [INFO] [DBConnectionManager] - Service shipping-service unresponsive for 4 minutes. Marking as DOWN
+2025-05-20 10:00:14,000 [ERROR] [ServiceMonitor] - Service user-service status: Unresponsive for 3 minutes
+2025-05-20 10:00:06,000 [WARN] [DBConnectionManager] - Service payment-gateway status: Unresponsive for 4 minutes
+2025-05-20 10:00:16,000 [INFO] [ServiceMonitor] - Query completed. duration=2.09s, query="SELECT id, email FROM customers WHERE country='US'"
+2025-05-20 10:00:25,000 [ERROR] [DBConnectionManager] - Long-running query detected. duration=37s, query="SELECT * FROM transactions WHERE amount > 1000"
+2025-05-20 10:00:24,000 [INFO] [DBConnectionManager] - Fatal error during query execution: ERROR: syntax error at or near "FROM"
+2025-05-20 10:00:56,000 [WARN] [QueryMonitor] - Query exceeded threshold: duration=14s, query="SELECT id, email FROM customers WHERE country='US'"
+2025-05-20 10:00:40,000 [INFO] [QueryMonitor] - Long-running query detected. duration=37s, query="SELECT * FROM orders WHERE status='PENDING'"
+2025-05-20 10:01:12,000 [INFO] [ServiceMonitor] - Long-running query detected. duration=27s, query="SELECT id, email FROM customers WHERE country='US'"
+2025-05-20 10:01:00,000 [ERROR] [DBConnectionManager] - Service auth-service status: Healthy
+2025-05-20 10:01:28,000 [INFO] [DBConnectionManager] - Service user-service unresponsive for 10 minutes. Marking as DOWN
+2025-05-20 10:00:24,000 [WARN] [QueryMonitor] - Service payment-gateway status: Healthy
+2025-05-20 10:00:39,000 [WARN] [ServiceMonitor] - Fatal error during query execution: ERROR: syntax error at or near "FROM"
+2025-05-20 10:00:56,000 [WARN] [DBConnectionManager] - Query near threshold: duration=8.25s, query="SELECT * FROM users WHERE last_login IS NOT NULL"
+2025-05-20 10:00:45,000 [WARN] [QueryMonitor] - Service auth-service unresponsive for 8 minutes. Marking as DOWN
+2025-05-20 10:01:20,000 [INFO] [QueryMonitor] - Long-running query detected. duration=19s, query="SELECT * FROM transactions WHERE amount > 1000"
+2025-05-20 10:01:59,000 [ERROR] [ServiceMonitor] - Service payment-gateway status: Unresponsive for 1 minutes
+2025-05-20 10:03:00,000 [INFO] [ServiceMonitor] - Database latency warning: avg=382ms peak=1244ms
+2025-05-20 10:01:16,000 [WARN] [QueryMonitor] - Service inventory-service did not respond to health check. Retrying...
+2025-05-20 10:02:20,000 [INFO] [DBConnectionManager] - Failed to connect to database: timeout expired after 17s. Host: db.prod.local Port: 5432
+2025-05-20 10:03:09,000 [INFO] [DBConnectionManager] - Service payment-gateway response timeout. Elapsed=45s
+2025-05-20 10:00:22,000 [ERROR] [DBConnectionManager] - Query near threshold: duration=8.95s, query="SELECT * FROM transactions WHERE amount > 1000"
+2025-05-20 10:01:32,000 [INFO] [DBConnectionManager] - Reconnection successful to primary database after 1 retries
+2025-05-20 10:03:36,000 [INFO] [ServiceMonitor] - Service auth-service did not respond to health check. Retrying...
+2025-05-20 10:02:30,000 [WARN] [ServiceMonitor] - Database latency warning: avg=551ms peak=1776ms
+2025-05-20 10:01:44,000 [ERROR] [ServiceMonitor] - Database latency warning: avg=464ms peak=1948ms
+2025-05-20 10:01:48,000 [ERROR] [ServiceMonitor] - Fatal error during query execution: ERROR: syntax error at or near "FROM"
+2025-05-20 10:03:44,000 [ERROR] [ServiceMonitor] - Service payment-gateway status: Unresponsive for 5 minutes
+2025-05-20 10:04:50,000 [INFO] [ServiceMonitor] - Query near threshold: duration=8.46s, query="SELECT * FROM orders WHERE status='PENDING'"
+2025-05-20 10:04:00,000 [WARN] [ServiceMonitor] - Database connection lost. Reconnecting...
+2025-05-20 10:01:02,000 [WARN] [DBConnectionManager] - Database connection lost. Reconnecting...
+2025-05-20 10:02:08,000 [ERROR] [ServiceMonitor] - Failed to connect to replica database: authentication failed
+2025-05-20 10:03:18,000 [ERROR] [ServiceMonitor] - Fatal error during query execution: ERROR: syntax error at or near "FROM"
+2025-05-20 10:04:32,000 [WARN] [DBConnectionManager] - Query completed. duration=3.46s, query="SELECT * FROM orders WHERE status='PENDING'"
+2025-05-20 10:02:20,000 [WARN] [ServiceMonitor] - Service auth-service unresponsive for 10 minutes. Marking as DOWN
+2025-05-20 10:04:12,000 [WARN] [QueryMonitor] - Service payment-gateway did not respond to health check. Retrying...
+2025-05-20 10:05:33,000 [ERROR] [QueryMonitor] - Service payment-gateway status: Healthy
+2025-05-20 10:01:16,000 [ERROR] [ServiceMonitor] - Service auth-service response timeout. Elapsed=58s
+2025-05-20 10:01:57,000 [ERROR] [ServiceMonitor] - Failed to connect to database: timeout expired after 37s. Host: db.prod.local Port: 5432
+2025-05-20 10:06:40,000 [ERROR] [ServiceMonitor] - Failed to connect to database: timeout expired after 26s. Host: db.prod.local Port: 5432
+2025-05-20 10:04:06,000 [INFO] [ServiceMonitor] - Service inventory-service status: Unresponsive for 1 minutes
+2025-05-20 10:07:00,000 [ERROR] [QueryMonitor] - Query completed. duration=3.86s, query="SELECT COUNT(*) FROM logs"
+2025-05-20 10:04:18,000 [ERROR] [ServiceMonitor] - Service inventory-service status: Unresponsive for 3 minutes
+2025-05-20 10:04:24,000 [ERROR] [ServiceMonitor] - Failed to connect to database: timeout expired after 59s. Host: db.prod.local Port: 5432
+2025-05-20 10:03:00,000 [INFO] [ServiceMonitor] - Database latency warning: avg=381ms peak=1371ms
+2025-05-20 10:06:54,000 [WARN] [DBConnectionManager] - Database connection lost. Reconnecting...
+2025-05-20 10:06:16,000 [ERROR] [DBConnectionManager] - Failed to connect to replica database: authentication failed
+2025-05-20 10:03:12,000 [ERROR] [DBConnectionManager] - Service inventory-service unresponsive for 8 minutes. Marking as DOWN
+2025-05-20 10:04:05,000 [ERROR] [QueryMonitor] - Fatal error during query execution: ERROR: syntax error at or near "FROM"
+2025-05-20 10:03:20,000 [ERROR] [DBConnectionManager] - Failed to connect to replica database: authentication failed
+2025-05-20 10:06:48,000 [INFO] [ServiceMonitor] - Failed to connect to replica database: authentication failed
+2025-05-20 10:02:36,000 [ERROR] [DBConnectionManager] - Failed to connect to database: timeout expired after 53s. Host: db.prod.local Port: 5432
+2025-05-20 10:02:39,000 [WARN] [ServiceMonitor] - Service shipping-service status: Healthy
+2025-05-20 10:00:54,000 [WARN] [ServiceMonitor] - Database latency warning: avg=324ms peak=1613ms
+2025-05-20 10:00:55,000 [INFO] [ServiceMonitor] - Query completed. duration=4.81s, query="SELECT id, email FROM customers WHERE country='US'"
+2025-05-20 10:02:48,000 [INFO] [DBConnectionManager] - Query completed. duration=4.78s, query="SELECT COUNT(*) FROM logs"
+2025-05-20 10:06:39,000 [ERROR] [DBConnectionManager] - Query exceeded threshold: duration=29s, query="SELECT id, email FROM customers WHERE country='US'"
+2025-05-20 10:04:50,000 [INFO] [ServiceMonitor] - Long-running query detected. duration=26s, query="SELECT COUNT(*) FROM logs"
+2025-05-20 10:01:58,000 [ERROR] [DBConnectionManager] - Fatal error during query execution: ERROR: syntax error at or near "FROM"
+2025-05-20 10:07:00,000 [INFO] [DBConnectionManager] - Service user-service status: Unresponsive for 5 minutes
+2025-05-20 10:10:10,000 [ERROR] [QueryMonitor] - Query completed. duration=2.63s, query="SELECT * FROM orders WHERE status='PENDING'"
+2025-05-20 10:10:20,000 [INFO] [DBConnectionManager] - Service auth-service status: Unresponsive for 2 minutes
+2025-05-20 10:01:03,000 [ERROR] [ServiceMonitor] - Reconnection successful to primary database after 1 retries
+2025-05-20 10:04:16,000 [ERROR] [ServiceMonitor] - Database connection lost. Reconnecting...
+2025-05-20 10:09:45,000 [INFO] [ServiceMonitor] - Failed to connect to replica database: authentication failed
+2025-05-20 10:03:18,000 [ERROR] [QueryMonitor] - Query near threshold: duration=10.67s, query="SELECT * FROM orders WHERE status='PENDING'"
+2025-05-20 10:11:10,000 [INFO] [QueryMonitor] - Database latency warning: avg=548ms peak=1974ms
+2025-05-20 10:04:32,000 [WARN] [ServiceMonitor] - Service shipping-service unresponsive for 4 minutes. Marking as DOWN
+2025-05-20 10:06:54,000 [WARN] [QueryMonitor] - Failed to connect to database: timeout expired after 33s. Host: db.prod.local Port: 5432
+2025-05-20 10:02:20,000 [ERROR] [DBConnectionManager] - Failed to connect to database: timeout expired after 12s. Host: db.prod.local Port: 5432
+2025-05-20 10:08:17,000 [INFO] [DBConnectionManager] - Service shipping-service did not respond to health check. Retrying...
+2025-05-20 10:09:36,000 [INFO] [ServiceMonitor] - Service shipping-service response timeout. Elapsed=29s
+2025-05-20 10:08:31,000 [INFO] [ServiceMonitor] - Service shipping-service unresponsive for 8 minutes. Marking as DOWN
+2025-05-20 10:02:28,000 [ERROR] [DBConnectionManager] - Service user-service status: Healthy
+2025-05-20 10:05:00,000 [ERROR] [ServiceMonitor] - Failed to connect to database: timeout expired after 14s. Host: db.prod.local Port: 5432
+2025-05-20 10:12:40,000 [WARN] [ServiceMonitor] - Reconnection successful to primary database after 1 retries
+2025-05-20 10:07:42,000 [INFO] [ServiceMonitor] - Failed to connect to replica database: authentication failed
+2025-05-20 10:01:18,000 [INFO] [ServiceMonitor] - Database latency warning: avg=350ms peak=1594ms
+2025-05-20 10:03:57,000 [INFO] [ServiceMonitor] - Service auth-service did not respond to health check. Retrying...
+2025-05-20 10:09:20,000 [ERROR] [DBConnectionManager] - Service inventory-service did not respond to health check. Retrying...
+2025-05-20 10:09:27,000 [ERROR] [DBConnectionManager] - Query exceeded threshold: duration=29s, query="SELECT id, email FROM customers WHERE country='US'"
+2025-05-20 10:02:44,000 [ERROR] [QueryMonitor] - Failed to connect to replica database: authentication failed
+2025-05-20 10:06:55,000 [WARN] [ServiceMonitor] - Service payment-gateway status: Unresponsive for 5 minutes
+2025-05-20 10:08:24,000 [INFO] [ServiceMonitor] - Failed to connect to database: timeout expired after 58s. Host: db.prod.local Port: 5432
+2025-05-20 10:14:10,000 [ERROR] [ServiceMonitor] - Failed to connect to database: timeout expired after 47s. Host: db.prod.local Port: 5432
+2025-05-20 10:12:54,000 [INFO] [QueryMonitor] - Reconnection successful to primary database after 1 retries
+2025-05-20 10:04:21,000 [WARN] [ServiceMonitor] - Query exceeded threshold: duration=16s, query="SELECT username FROM admins WHERE last_access > NOW() - INTERVAL '1 DAY'"
+2025-05-20 10:13:12,000 [ERROR] [QueryMonitor] - Service shipping-service response timeout. Elapsed=57s
+2025-05-20 10:14:50,000 [WARN] [ServiceMonitor] - Database latency warning: avg=431ms peak=1343ms
+2025-05-20 10:06:00,000 [WARN] [QueryMonitor] - Database latency warning: avg=472ms peak=1445ms
+2025-05-20 10:07:35,000 [WARN] [QueryMonitor] - Service auth-service unresponsive for 6 minutes. Marking as DOWN
+2025-05-20 10:09:12,000 [WARN] [DBConnectionManager] - Service user-service unresponsive for 10 minutes. Marking as DOWN
+2025-05-20 10:06:12,000 [INFO] [QueryMonitor] - Failed to connect to database: timeout expired after 13s. Host: db.prod.local Port: 5432
+2025-05-20 10:12:32,000 [ERROR] [ServiceMonitor] - Query exceeded threshold: duration=14s, query="SELECT * FROM products WHERE stock < 10"
+2025-05-20 10:01:35,000 [WARN] [QueryMonitor] - Reconnection successful to primary database after 1 retries
+2025-05-20 10:06:24,000 [WARN] [QueryMonitor] - Query near threshold: duration=8.57s, query="SELECT * FROM products WHERE stock < 10"
+2025-05-20 10:03:14,000 [ERROR] [QueryMonitor] - Service auth-service did not respond to health check. Retrying...
+2025-05-20 10:01:38,000 [WARN] [DBConnectionManager] - Reconnection successful to primary database after 1 retries
+2025-05-20 10:14:51,000 [INFO] [ServiceMonitor] - Failed to connect to replica database: authentication failed
